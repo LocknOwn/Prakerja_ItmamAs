@@ -1,0 +1,43 @@
+void main() {
+  //rumus keliling persegi
+  double sisi = 4;
+  double kelilingP = 4 * sisi;
+  print(kelilingP);
+  
+  //rumus keliling persegi panjang
+  double panjang = 9;
+  double lebar = 4;
+  double kelilingPP = 2 * (panjang + lebar);
+    print (kelilingPP);
+  
+  //rumus keliling lingkaran
+  double jari2 = 7.0;
+  double phi = 22/7;
+  double kelilingL = 2 * phi * jari2;
+  print(kelilingL);
+}
+
+//command pada flutter CLI
+// flutter analyze          : untuk menganalisa kode sumber project Dart.
+// flutter assemble         : untuk mengambil semua package yang diperlukan di aplikasi. 
+// flutter create           : untuk membuat project flutter baru.
+// flutter run              : untuk menjalankan project yang sedang dibuat.
+// flutter doctor           : untuk memeriksa tools yang dibutuhkan untuk Run flutter.
+// flutter upgrade          : untuk melakukan pembaruan flutter SDK.
+// flutter build apk        : untuk membangun aplikasi android apabila sudah selesai.
+// flutter install          : untuk meng-install aplikasi ke emulator atau ke perangkat user.
+// flutter packages get     : untuk menambah library.
+// flutter packages upgrade : untuk melakukan pembaruan library.
+// flutter test             : untuk menjalankan file yang dites pada aplikasi.
+// flutter devices          : untuk menampilkan semua perangkat yang terhubung dengan flutter.
+// flutter clean            : untuk membersihkan file-file yang tidak dibutuhkan.
+// flutter pub              : untuk mengatur package yang terdapat di flutter.
+// flutter version          : untuk menunjukkan informasi versi flutter dan dart SDK.
+// flutter channel          : untuk menunjukkan semua daftar flutter channel yang tersedia.
+// flutter attach           : digunakan ketika akan menambahkan ke aplikasi yang sudah ada.
+// flutter symbolize        : untuk membuat trace tumpukan yang dapat dibaca.
+// flutter config           : untuk konfigurasi fungsi flutter yang diinginkan user pada project.
+// flutter downgrade        : untuk menurunkan versi flutter SDK ke versi sebelumnya.
+// flutter drive            : untuk menguji apakah driver berjalan dengan baik tanpa error.
+// flutter emulators        : menampilkan daftar semua emulator yang terinstall.
+// 
